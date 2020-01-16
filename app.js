@@ -16,9 +16,6 @@ button.addEventListener('click', () => {
     const userChoice = userInput.value;
     const computerChoice = getRandomThrow();
     const result = checkResult(userChoice, computerChoice);
-    console.log('user', userChoice);
-    console.log('computer', computerChoice);
-    console.log(result);
 
     if (computerChoice === 'rock') resultImage.src = 'https://cdn.pixabay.com/photo/2017/02/14/09/16/stones-2065410_1280.jpg';
     if (computerChoice === 'paper') resultImage.src = 'https://cdn.pixabay.com/photo/2018/02/17/15/40/paper-3160167_1280.jpg';
